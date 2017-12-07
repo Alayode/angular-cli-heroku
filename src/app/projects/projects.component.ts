@@ -8,6 +8,8 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 })
 export class ProjectsComponent implements OnInit {
 
+  public myProjectsOnYoutube: any;
+
   constructor() { }
 
   ngOnInit() {
