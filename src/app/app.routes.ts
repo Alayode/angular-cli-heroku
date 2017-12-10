@@ -5,6 +5,7 @@ import { BlockchainsComponent } from './blockchains/blockchains.component';
 import { SubrouteComponent } from './subroute/subroute.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { MtgComponent } from './mtg/mtg.component';
+import { ResumeComponent } from './resume/resume.component';
 
 export const ROUTES: Routes = [
   { path: '', component: LandingComponent  },
@@ -12,6 +13,7 @@ export const ROUTES: Routes = [
   { path: 'blockchains', component: BlockchainsComponent },
   { path: 'subroute', component: SubrouteComponent },
   { path: 'projects', component: ProjectsComponent },
+  { path: 'resume', component: ResumeComponent },
   { path: 'magicTheGathering', component: MtgComponent }
 ];
 
